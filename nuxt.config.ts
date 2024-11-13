@@ -28,7 +28,13 @@ export default defineNuxtConfig({
       }
     ]
   },
-
+  
+ nitro: {
+    experimental: {
+      openAPI: true
+    }
+  },
+   
   // https://eslint.nuxt.com
   eslint: {
     config: {
